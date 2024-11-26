@@ -1,7 +1,10 @@
 // 現在年度から学年を計算
 const CalclateGrade = entered =>{
     const date = new Date();
-    return 1 + date.getFullYear() - entered + (date.getMonth() < 4 ? 0:1);
+    
+    // 4月(month: 3)を超えているなら学年を足す
+    return date.getFullYear() - entered +
+        (date.getMonth() < 3 ? 0:1);
 }
 
 const GetMemberList = async () =>{

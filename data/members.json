@@ -49,21 +49,19 @@
         {
             "name": "しゃけ",
             "entered": 2024,
+
             "faculty": "GP",
             "belonging": [
                 "プログラミングサークル",
                 "東方電通録"
             ],
             "sns": [
-                {
-                    "type": "twitter",
-                    "name": "23_tas9"
-                }
             ]
         },
         {
             "name": "MM",
             "entered": 2024,
+
             "faculty": "HB",
             "belonging": [
                 "プログラミングサークル"
