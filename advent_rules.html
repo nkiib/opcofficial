@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <!-- メタ -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords"
+        content="OECUPU,OECU,大阪電気通信大学,大電通大,プログラミング,プログラミングサークル,プロサー" />
+
+    <!-- タイトル -->
+    <title>OECUアドベントカレンダーのガイドライン</title>
+    <meta property="og:title" content="OECUアドベントカレンダーのガイドライン" />
+
+    <!-- OGP -->
+    <meta name="description" content="OECUアドベントカレンダーのガイドラインです。" />
+    <meta property="og:description" content="OECUアドベントカレンダーのガイドラインです。" />
+    <meta property="og:url" content="https://oecupc.github.io/opcofficial/index.html" />
+    <meta property="og:image"
+        content="https://raw.githubusercontent.com/OECUPC/opcofficial/main/images/favicon/icon-512x512.png" />
+    <meta name="twitter:card" content="summary" />
+
+    <!-- サイト アイコン -->
+    <link rel="apple-touch-icon" type="image/png" href="images/favicon/apple-touch-icon-180x180.png" />
+    <link rel="icon" type="image/png" href="images/favicon/icon-192x192.png" />
+
+    <!-- フォント読み込み -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@500&display=swap" rel="stylesheet" />
+
+    <!-- スタイル適用 -->
+    <link rel="stylesheet" href="styles/css/main.css" />
+    <link rel="stylesheet" href="styles/css/header.css" />
+    <link rel="stylesheet" href="styles/css/footer.css" />
+
+    <!-- スクリプト -->
+    <script defer src="scripts/main.js"></script>
+    <script defer src="scripts/activity.js"></script>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ENGYPBGHGL"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-ENGYPBGHGL');
+    </script>
+</head>
+
+<body>
+    <header>
+        <nav class="global-nav">
+            <a href="index.html" class="brand-logo"></a>
+
+            <input type="checkbox" id="toggle-global-nav" />
+            <label for="toggle-global-nav" class="global-nav__toggle-label">
+                <span class="global-nav__toggle-label__animation-bar"></span>
+                <span class="global-nav__toggle-label__animation-bar"></span>
+            </label>
+
+            <ul class="global-nav__menu">
+                <li><a href="index.html">TOPページ</a></li>
+                <li><a class="scroll" href="#activity-history-contents">目次</a></li>
+                <li><a class="scroll" href="#activity-history">活動履歴</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <article class="main-contents" id="top">
+            <h2>OECUアドベントカレンダーのガイドライン</h2>
+
+            <p>OECUアドベントカレンダーに投稿される方は以下のガイドラインをお守りください。</p>
+
+            <ul>
+                <li>承諾を得ていない個人情報や守秘義務がある情報を掲載しないこと。なるべく個人名を掲載しないこと。ペンネームでの投稿を推奨します。</li>
+                <li>他者の権利を侵害しないこと。</li>
+                <li>法律に違反しないこと。また、法律違反を推奨するような内容を含まないこと。</li>
+                <li>大阪電気通信大学生の一員として自覚と責任をもつこと。また、大阪電気通信大学が定めるソーシャルメディアガイドラインに従うこと。</li>
+                <li><a href="https://help.qiita.com/ja/articles/qiita-community-guideline">Qiita のコミュニティガイドライン</a>に従うこと。</li>
+                <li>ともに知見や経験、ノウハウや知識を共有でき、能力向上を果たすことができる記事を記述すること。</li>
+                <li>テーマに即していること。なお、テーマとは「コンピュータ」と「グラフィックス」に関わるもの全体ですので、コンピュータに全く関係のない記事を掲載することはおやめください。</li>
+                <li>他者に対する誹謗中傷を行わないこと。また、他者の考えについて正当な理由なく批判・否定しないこと。対立意見を提示する場合は建設的な議論を前提にすること。</li>
+            </ul>
+        </article>
+    </main>
+    <footer>
+
+        <p class="copyright">
+            @2023 OECU Programing Club
+        </p>
+        <a href="https://twitter.com/oecuprogramming/" class="twitter-logo" target="_blank"
+            rel="noopener noreferrer"></a>
+    </footer>
+</body>
+
+</html>
